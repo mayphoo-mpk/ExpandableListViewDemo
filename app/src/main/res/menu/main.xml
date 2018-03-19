@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.HomeActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_24dp"
+        android:orderInCategory="90"
+        android:title="Search"
+        android:actionLayout="@layout/custom_search_view"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:visible="true"/>
+
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ExpandableListView</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_group">Group</string>
+    <string name="news">News</string>
+    <string name="local_news">Local News</string>
+    <string name="international_news">International News</string>
+    <string name="favorite">Favorite</string>
+    <string name="series">Series</string>
+    <string name="books">Books</string>
+    <string name="novel_book">Novel Books</string>
+    <string name="comedy_book">Comedy Books</string>
+    <string name="translate_book">Translate Books</string>
+    <string name="musics">Music</string>
+    <string name="myanmar_music">Myanmar Music</string>
+    <string name="eng_music">Engish Music</string>
+    <string name="popular">Popular</string>
+    <string name="mrtv">MRTV Channel</string>
+    <string name="mwd">MWD Channel</string>
+    <string name="channel7">Channel 7</string>
+    <string name="download">Download</string>
+    <string name="setting">Setting</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

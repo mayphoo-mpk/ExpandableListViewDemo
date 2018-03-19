@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_list_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_highlighter">
+
+        <ImageView
+            android:id="@+id/iv_header_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_nav_setting"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView
+            android:id="@+id/tv_header_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_header_icon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_regular"
+            android:text="Home"
+            android:layout_margin="15dp"/>
+
+        <ImageView
+            android:id="@+id/iv_indicator_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_arrow_up_red_24dp"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/iv_indicator_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_arrow_up_white_24dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@id/iv_header_icon"
+            android:background="@color/divider"
+            android:visibility="invisible"/>
+
+</RelativeLayout>

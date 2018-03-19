@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/tv_user_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user@gmail.com"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"/>
+
+    <ImageView
+        android:id="@+id/iv_user_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_account_circle_96dp"
+        android:layout_above="@id/tv_user_account"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
